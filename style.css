@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #202124;
+    font-family:Roboto,'Helvetica Neue', sans-serif;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content:end ;
+    padding: 0 12px;
+}
+
+header .head__links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+header .head__links a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header .head__links a img {
+    width: 30px;
+}
+
+header .head__links .foto__perfil {
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+main #logo--google {
+    display: flex;
+    justify-content: center;
+}
+
+#logo--google img {
+    width: 50%;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+
+main .busybot {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+main .busybot .buscador {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 8px;
+    height: 40px;
+    width: 35%;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+main .busybot .buscador input {
+    width: 100%;
+    background-color: transparent;
+    border:none;
+    color: white;
+    font-size: 18px;
+}
+
+main .busybot .buscador:hover {
+    background-color: #2a2c2e;
+    border: 0 solid black;
+    box-shadow:1px 1px 7px #161616 ;
+}
+
+main .busybot .buscador button {
+    background-color: transparent;
+    border: none;
+
+}
+
+.lupita-logo img {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    opacity: 50%;
+}
+
+.micro-logo img {
+    height: 20px;
+    width: 17px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.micro-logo img:hover {
+    box-shadow: 1px 1px 3px black;
+}
+
+.camara-logo img {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.camara-logo img:hover {
+    box-shadow: 1px 1px 3px black;
+}
+
+main .busybot .buscador-buttons {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .busybot .buscador-buttons #search {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: #e8eaed;
+}
+
+main .busybot .buscador-buttons #search:hover {
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+main .busybot .buscador-buttons #lucky {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: #e8eaed;
+}
+
+main .busybot .buscador-buttons #lucky:hover {
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #171717;
+    color:#999da2;
+    height: 120px;
+    width: 100%;
+    font-size:18px;
+}
+
+footer p {
+    padding: 15px 25px;
+    border-bottom: 1px solid  #3c4043;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.row2 ul {
+    display: flex;
+    
+}
+
+.row2 ul li {
+    list-style: none;
+}
+
+.row2 li a {
+    text-decoration: none;
+    color:#999da2;
+    font-size: 18px;
+    margin: 30px;
+}
